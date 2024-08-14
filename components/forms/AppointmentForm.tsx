@@ -91,7 +91,7 @@ export const AppointmentForm = ({
           );
         }
       } else {
-        const appointmentToUpdate = {
+        const appointmentToUpdate: UpdateAppointmentParams = {
           userId,
           appointmentId: appointment?.$id!,
           appointment: {
@@ -101,9 +101,10 @@ export const AppointmentForm = ({
             cancellationReason: values.cancellationReason,
           },
           type,
+          timeZone: "" , // Add the missing timeZone property
         };
-
-        const updatedAppointment = await updateAppointment(appointmentToUpdate);
+        
+        const updatedAppointment = await updateAppointment(appointmentToUpdate);        
 
         if (updatedAppointment) {
           setOpen && setOpen(false);
