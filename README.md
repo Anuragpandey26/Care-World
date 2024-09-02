@@ -17,6 +17,3 @@
 
 👉 File Upload Using Appwrite Storage: Users can upload and store files securely within the app using Appwrite storage services.
 
-👉 Manage and Track Application Performance Using Sentry: The application uses Sentry to monitor and track its performance and detect any errors.
-
-and many more, including code architecture and reusability
