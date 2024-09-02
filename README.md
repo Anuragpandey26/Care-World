@@ -1,4 +1,4 @@
-
+  
         🔋 Features
 
 👉 Register as a Patient: Users can sign up and create a personal profile as a patient.
